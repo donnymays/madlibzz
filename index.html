@@ -11,23 +11,36 @@
   <div class="container">
     <h1>Make dat MadLib!</h1>
     <div>
-      <form id="formOne"></form>
-      <div class="form-group">
-        <label for="person1">A Celebrity</label>
-        <input id="person1" class="form-control" type="text" placeholder="A celebrity">
-        <small id="person1" class="form-text text-muted"></small>
-      </div>
-      <div class="form-group">
-        <label for="item1">Item</label>
-        <input id="item1" class="form-control" type="text" placeholder="an item">
-        <small id="item1" class="form-text text-muted"> a thing! </small>
-      </div>
-      <div class="form-group">
-        <label for="kitchen_appliance"> A Kitchen Appliance</label>
-        <input id="kitchen_appliance" class="form-control" type="text" placeholder="kitchen_appliance">
-        <small id="kitchen_appliance" class="form-text text-muted"></small>
-      </div>
-    </div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="person1">A Celebrity</label>
+          <input id="person1" class="form-control" type="text" placeholder="A celebrity">
+          <small id="person1" class="form-text text-muted">A famous person!</small>
+        </div>
+        <div class="form-group">
+          <label for="item1">Item</label>
+          <input id="item1" class="form-control" type="text" placeholder="an item">
+          <small id="item1" class="form-text text-muted"> a thing! </small>
+        </div>
+        <div class="form-group">
+          <label for="kitchen_appliance"> A Kitchen Appliance</label>
+          <input id="kitchen_appliance" class="form-control" type="text" placeholder="kitchen appliance">
+          <small id="kitchen_appliance" class="form-text text-muted">not toaster (that's what everyone says)</small>
+        </div>
 
+        <button type="submit" class="btn">Show me the story!</button>
+      </form>
+    </div>
+    
+    <div id="story">
+      <h1>Celebrity Kitchen Nightmares</h1>
+      <p>
+        Tonight on Celebrity Kitchen Nightmares, <span class="person1"></span> will experience 
+        the wrath of Michelin Star celebrity chef Gordon Ramsey.  Will Rasmsey 
+        throw a <span class="item1"></span>?? Tune in to find out! 
+        (This commercial brought to you by <span class="kitchen_appliance"></span>)
+      </p>
+    </div>
+  
   </div>
 </body>
